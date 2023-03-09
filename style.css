@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#conteiner{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    word-wrap: break-word;
+    padding: 5px;
+
+}
+.button{
+    cursor: pointer;
+    background-color: aqua;
+    padding: 5px;
+    width: fit-content;
+    margin: 5px 0px;
+
+}
+input{
+    padding: 10px;
+}
